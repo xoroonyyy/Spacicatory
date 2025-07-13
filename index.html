@@ -1,256 +1,146 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Rana">
+  <meta name="robots" content="index ,follow">
+  <meta name="keywords" content="space, spacicatory, space information, space info, Space, Spacicatory, Astronaut, Astronauts, astronaut, astronauts"/>
+  <title>Spacicatory</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-    
-    <title>Spacicatory</title>
-    
-    <link href="https://fonts.googleapis.com/css2?
-    family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect"
-    href="https://fonts.googleapis.com">
-    
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
 
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
-rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      font-family: 'Space Grotesk', sans-serif;
+    }
 
-    
-    <style>
-    	.top {
-            background-color: black;
-            text-align: center;
-            margin: 0;
-        }
-        .header {
-            background-color: black;
-            padding: 120px;
-            width: 180%
-            text-align: center;
-            margin: 0;
-        }
-        .content {
-            background-color: white;
-            padding: 120px;
-            width: 180%
-            text-align: center;
-            margin: 0;
-        }
-        .footer {
-            background-color: lightgreen;
-            padding: 20px;
-            width: 180%
-            text-align: center;
-            margin: 0
-        }
-        
-        
-    </style>
-    
-    
+    .top {
+      padding: 0px 30px;
+    }
+
+    .top h1 a {
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .header {
+      padding: 120px 30px;
+      background-image: url('https://i.pinimg.com/736x/1d/2e/7e/1d2e7e7fe3c42b5b2c04290ec6c9f14e.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 45px;
+      margin: 0 0 20px 0;
+    }
+
+    .content {
+      padding: 60px 30px;
+      background-color: black;
+      color: white;
+    }
+
+    .content h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .button-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .topic-button {
+      position: relative;
+      height: 300px;
+      width: 200px;
+      border: none;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      cursor: pointer;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .topic-button:hover {
+      transform: scale(1.03);
+    }
+
+    .topic-button strong {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      color: white;
+      font-size: 15px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 4px 8px;
+      border-radius: 5px;
+    }
+
+    .footer {
+      padding: 60px 30px;
+      background-image: url('https://i.pinimg.com/736x/32/16/17/321617eac8c1109b68c22bfbe022f36c.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
 </head>
 
-<body style = "background-color: black;">
+<body>
+  
+  <div class="top">
+    <h1><a href="index.html">Spacicatory</a></h1>
+  </div>
 
-	<div class="top">
-    
-        <h1 style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 12px;
-        color: white;
-        text-align: left;">
-        
-        	Spacicatory
-            
-        </h1>
-        
-        <!------------------------->
+  <div class="header">
+    <h1>All about Space</h1>
+    <p>
+      Space is a vast, uncharted expanse that holds endless mysteries and infinite possibilities. From the shimmering beauty of distant galaxies to the intricate dance of planets in our solar system, space inspires curiosity and awe.
+      It’s a realm where science meets imagination, offering insights into the origins of the universe and the potential for life beyond Earth.
+      Whether you're fascinated by black holes, stargazing, or the quest for interstellar travel, space invites us to dream bigger and reach further. Embark on a journey to discover the cosmos and unlock the secrets of the final frontier.
+    </p>
+  </div>
 
-    <div class="header"
-    	 style="background-image: url('https://i.pinimg.com/736x/1d/2e/7e/1d2e7e7fe3c42b5b2c04290ec6c9f14e.jpg');
-         background-size: cover;
-         background-repeat: no-repeat;">
-         
-        <h1 style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 45px;
-        color: white; text-align: left;">
-        
-        	All about Space
-            
-         </h1>
-        
-        <strong><p style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 17px;
-        color: white;
-        text-align: left;">
-        
-           Space is a vast, uncharted expanse that holds endless mysteries and infinite possibilities.
-           From the shimmering beauty of distant galaxies to the intricate dance of planets in our solar system, space inspires curiosity and awe.
-           It’s a realm where science meets imagination, offering insights into the origins of the universe and the potential for life beyond Earth.
-           Whether you're fascinated by black holes, stargazing, or the quest for interstellar travel, space invites us to dream bigger and reach further.
-           Embark on a journey to discover the cosmos and unlock the secrets of the final frontier.
-           
-           </p></strong>
-           
-        <br><br>
-        
+  <div class="content">
+    <h2>Select Your Favorite Topic:</h2>
+
+    <div class="button-grid">
+      <a href="SpacicatorySpaceExploration.html" target="_blank">
+        <button class="topic-button" style="background-image: url('https://i.pinimg.com/736x/e9/7e/21/e97e211893f23ff2da0fca19c9b2cfac.jpg');">
+          <strong>Space Exploration</strong>
+        </button>
+      </a>
+
+      <a href="SpacicatoryLifeInSpace.html" target="_blank">
+        <button class="topic-button" style="background-image: url('https://i.pinimg.com/736x/bd/7f/ec/bd7fec6e791ee375eb564082f1c014ee.jpg');">
+          <strong>Life in Space</strong>
+        </button>
+      </a>
+
+      <a href="SpacicatorySpaceStations.html" target="_blank">
+        <button class="topic-button" style="background-image: url('https://i.pinimg.com/736x/de/35/3c/de353c9f646c31592a03faf7ef15065c.jpg');">
+          <strong>Space Stations</strong>
+        </button>
+      </a>
+
+      <a href="SpacicatoryPlanets.html" target="_blank">
+        <button class="topic-button" style="background-image: url('https://i.pinimg.com/736x/a5/49/54/a54954550fa07d894841c3dc22ca35d2.jpg');">
+          <strong>Planets</strong>
+        </button>
+      </a>
     </div>
-    
-    
-    <div class="content"
-    	 style = "background-color: black;">
-         
-        <h2 style="font-family: 'Space Grotesk', sans-serif;
-        color: white;
-        text-align: left;">
-        
-        Select Your Favorite Topic:
-        
-        </h2>
-        
-        <br><br>
-        
-          <a href="file:///D:/Rana/Spacicatory%20Website/SpacicatorySpaceExploration.html"
-          style="text-decoration: none;" target="_blank">
-          
-          <button 
-          style = "position: relative;
-          border: black; 
-          border-radius: 10px; 
-          text-size: 18px
-          font-family: 'Space Grotesk', sans-serif;
-          color: white;
-          text-align: left, bottom;
-          background: url('https://i.pinimg.com/736x/e9/7e/21/e97e211893f23ff2da0fca19c9b2cfac.jpg') no-repeat center center; 
-          background-size: cover;
-          height: 300px;
-          width: 200px;
-          overflow: hidden; 
-          cursor: pointer;">
-          
-          <strong style=" position: absolute; 
-            	  bottom: 10px; 
-            	  left: 5px; 
-            	  color: white; 
-            	  font-size: 15px;">
-                  
-                  Space Exploration
-                  
-                  </strong>
-                  
-          </button>
-          
-          </a>
-          
-          <!--------------------------------------------------->
-          
-          	  <a href="file:///D:/Rana/Spacicatory%20Website/SpacicatoryLifeInSpace.html" target="_blank">
-              
-              <button 
-        	  style="
-            position: relative;
-            border: black; 
-            border-radius: 10px; 
-            font-size: 18px; 
-            font-family: 'Space Grotesk', sans-serif; 
-            color: white; 
-            background: url('https://i.pinimg.com/736x/bd/7f/ec/bd7fec6e791ee375eb564082f1c014ee.jpg') no-repeat center center; 
-            background-size: cover; 
-            height: 300px; 
-            width: 200px; 
-            overflow: hidden; 
-            cursor: pointer;">
-                <strong 
-                    style="
-                        position: absolute; 
-                        bottom: 10px; 
-                        left: 5px; 
-                        color: white; 
-                        font-size: 15px;">
-                    Life in Space
-                </strong>
-    		</button>
-  		    </a>
-    
-    <a href="file:///D:/Rana/Spacicatory%20Website/SpacicatorySpaceStations.html" target="_blank">
-    
-              <button 
-                      style="
-                          position: relative;
-                          border: black; 
-                          border-radius: 10px; 
-                          font-size: 18px; 
-                          font-family: 'Space Grotesk', sans-serif; 
-                          color: white; 
-                          background: url('https://i.pinimg.com/736x/de/35/3c/de353c9f646c31592a03faf7ef15065c.jpg') no-repeat center center; 
-                          background-size: cover; 
-                          height: 300px; 
-                          width: 200px; 
-                          overflow: hidden; 
-                          cursor: pointer;">
-                      <strong 
-                          style="
-                              position: absolute; 
-                              bottom: 10px; 
-                              left: 5px; 
-                              color: white; 
-                              font-size: 15px;">
-                          Space Stations
-                      </strong>
-    		</button>
-    		</a>
-    
-    <a href="file:///D:/Rana/Spacicatory%20Website/SpacicatoryPlanets.html" target="_blank">
-    
-              <button 
-                      style="
-                          position: relative;
-                          border: black; 
-                          border-radius: 10px; 
-                          font-size: 18px; 
-                          font-family: 'Space Grotesk', sans-serif; 
-                          color: white; 
-                          background: url('https://i.pinimg.com/736x/a5/49/54/a54954550fa07d894841c3dc22ca35d2.jpg') no-repeat center center; 
-                          background-size: cover; 
-                          height: 300px; 
-                          width: 200px; 
-                          overflow: hidden; 
-                          cursor: pointer;">
-                          
-                      <strong 
-                          style="
-                              position: absolute; 
-                              bottom: 10px; 
-                              left: 5px; 
-                              color: white; 
-                              font-size: 15px;">
-                          Planets
-                      </strong>
-                      
-               </button>
-               
-               </a>
-    
-    
-    	 </div>
-          
-          
-    </div>
-    
-    
-    <div class="footer"
-      style="background-image: url('https://i.pinimg.com/736x/32/16/17/321617eac8c1109b68c22bfbe022f36c.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;">
+  </div>
 
-          
-	</div>
-
+  <div class="footer"></div>
 </body>
 </html>

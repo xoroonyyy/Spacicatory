@@ -1,250 +1,166 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spacicatory - Planets</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-    
-    <title>Spacicatory - Planets</title>
-    
-    <link href="https://fonts.googleapis.com/css2?
-    family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect"
-    href="https://fonts.googleapis.com">
-    
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
 
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
-rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      font-family: 'Space Grotesk', sans-serif;
+    }
 
-    
-    <style>
-    	.top {
-            background-color: black;
-            text-align: center;
-            margin: 0;
-        }
-        .header {
-            background-color: black;
-            padding: 120px;
-            width: 180%
-            text-align: center;
-            margin: 0;
-        }
-        .content {
-            background-color: white;
-            padding: 120px;
-            width: 180%
-            text-align: center;
-            margin: 0;
-        }
-        .footer {
-            background-color: lightgreen;
-            padding: 20px;
-            width: 180%
-            text-align: center;
-            margin: 0
-        }
-        
-        
-    </style>
-    
-    
+    .navbar {
+      background-color: #0a0a0a;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #444;
+      font-family: 'Orbitron', sans-serif;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-size: 12px;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: lightblue;
+    }
+
+    .top {
+      padding: 0px 30px;
+    }
+
+    .top h1 a {
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .header {
+      padding: 120px 30px 100px;
+      background-image: url('https://i.pinimg.com/736x/a4/24/db/a424db1bb9f68e14a76494eb651b44ae.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      color: white;
+      clip-path: inset(0px 0px 30px 0px);
+    }
+
+    .header h1 {
+      font-size: 45px;
+      margin: 0 0 20px 0;
+    }
+
+    .content {
+      padding: 60px 30px;
+      background-color: black;
+      color: white;
+    }
+
+    .content h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .content p {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 50px;
+    }
+
+    .footer {
+      padding: 60px 30px;
+      background-image: url('https://i.pinimg.com/736x/32/16/17/321617eac8c1109b68c22bfbe022f36c.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
 </head>
 
-<body style = "background-color: black;">
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="SpacicatorySpaceExploration.html">Space Exploration</a>
+    <a href="SpacicatoryLifeInSpace.html">Life in Space</a>
+    <a href="SpacicatorySpaceStations.html">Space Stations</a>
+    <a href="SpacicatoryPlanets.html">Planets</a>
+  </div>
 
-	<div class="top">
-    
-        <h1 style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 12px;
-        color: white;
-        text-align: left;">
-        
-        <a href="file:///D:/Rana/Spacicatory%20Website/index.html" style="color: white; text-decoration: none;">
+  <div class="top">
+    <h1><a href="index.html">Spacicatory</a></h1>
+  </div>
 
-        	Spacicatory
+  <div class="header">
+    <h1>Planets</h1>
+    <p>
+      Planets are dynamic celestial bodies that shape our understanding of the universe. From the rocky landscapes of Mars to the swirling storms of Jupiter, each planet holds unique characteristics that reveal the secrets of cosmic evolution.
+      <br><br>
+      Within our solar system, eight planets orbit the Sun, while beyond, thousands of exoplanets continue to expand our knowledge of space and the possibility of life beyond Earth. Through scientific discoveries and exploration, we uncover the mysteries of these fascinating worlds.
+      <br><br>
+      Join us as we journey through the wonders of planets and their role in the vast cosmos.
+    </p>
+  </div>
 
-         </a>
-            
-        </h1>
-        
-        <!------------------------->
+  <div class="content">
+    <h2>Their Properties</h2>
+    <p>
+      Planets come in a diverse range of sizes, compositions, and atmospheres, each with distinct properties that define their nature. Some, like Earth and Mars, are rocky terrestrial planets with solid surfaces, while others, like Jupiter and Saturn, are massive gas giants with turbulent atmospheres and powerful storms.
+      <br><br>
+      Key planetary characteristics include mass, gravity, temperature, and atmospheric composition, all of which influence a planet’s ability to support life. Some planets have magnetic fields that shield them from cosmic radiation, while others have extreme environments with scorching heat or freezing temperatures. The presence of moons, rings, and geological activity further adds to the complexity of these celestial bodies.
+      <br><br>
+      By studying planetary properties, scientists gain valuable insights into how planets form, evolve, and interact with their surroundings.
+    </p>
 
-    <div class="header"
-    	 style="background-image: url('https://i.pinimg.com/736x/a4/24/db/a424db1bb9f68e14a76494eb651b44ae.jpg');
-         background-size: cover;
-         background-repeat: no-repeat;">
-         
-        <h1 style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 45px;
-        color: white; text-align: left;">
-        
-        	Planets
+    <h2>Physical Properties</h2>
+    <p>
+      The physical properties of planets, such as their mass, gravity, and the number of moons, are key to understanding their behavior and role within their star systems. Planets vary significantly in size and weight, with gas giants like Jupiter being the largest, weighing over 300 times as much as Earth, and terrestrial planets like Mercury being much smaller in mass and volume.
+      <br><br>
+      The gravitational pull of a planet is directly related to its mass and size. Larger planets, such as Jupiter and Saturn, have much stronger gravity compared to Earth, which influences everything from their atmospheric conditions to the orbits of their moons. In contrast, smaller planets like Mars and Mercury exert weaker gravity, affecting their ability to retain atmospheres and support potential life.
+      <br><br>
+      In our solar system, planets are accompanied by numerous moons. Jupiter and Saturn are the leaders, each with over 70 moons orbiting them, while Earth has just one, and Mercury and Venus have none. These moons can range from small, irregularly shaped bodies to large, spherical moons like Ganymede, the largest moon in the solar system.
+    </p>
 
-         </h1>
-        
-        <strong><p style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 17px;
-        color: white;
-        text-align: left;">
-        
-          Planets are dynamic celestial bodies that shape our understanding of the universe. From the rocky landscapes of Mars to the swirling storms of Jupiter, each planet holds unique characteristics that reveal the secrets of cosmic evolution.
+    <h2>Chemical Properties</h2>
+    <p>
+      The chemical makeup of planets plays a crucial role in shaping their environments, surfaces, and atmospheres. Planets are primarily composed of a variety of elements and compounds that determine their structure, appearance, and even potential for supporting life.
+      <br><br>
+      Terrestrial planets like Earth, Mars, Venus, and Mercury are made up mostly of silicate rock and metals, with Earth having a rich diversity of chemical elements that support life. These planets have solid surfaces and metallic cores, which contribute to their magnetic fields and internal heat. The chemical composition of their atmospheres also varies, with Earth’s being primarily nitrogen and oxygen, while Venus and Mars have atmospheres dominated by carbon dioxide, creating vastly different climates.
+      <br><br>
+      Gas giants like Jupiter and Saturn are predominantly composed of hydrogen and helium, with trace amounts of methane, ammonia, and other compounds. These gases form dense atmospheres and contribute to their signature cloud patterns and extreme weather systems.
+      <br><br>
+      The outermost planets, Uranus and Neptune, are often called ice giants due to their higher concentrations of water, ammonia, and methane ice. These compounds influence their pale blue appearance and extreme cold environments.
+    </p>
 
-Within our solar system, eight planets orbit the Sun, while beyond, thousands of exoplanets continue to expand our knowledge of space and the possibility of life beyond Earth. Through scientific discoveries and exploration, we uncover the mysteries of these fascinating worlds.
+    <h2>Planet Earth</h2>
+    <p>
+      Earth is a remarkable planet, unique in our solar system for its ability to support a rich diversity of life. As the third planet from the Sun, Earth’s position in the habitable zone allows it to maintain the conditions necessary for liquid water, a critical ingredient for life.
+      <br><br>
+      One of the most distinctive features of Earth is its atmosphere, composed mainly of nitrogen (78%) and oxygen (21%), with trace amounts of argon, carbon dioxide, and other gases. This composition not only sustains life but also creates a protective shield that filters harmful radiation from the Sun and helps regulate the planet's temperature.
+      <br><br>
+      Earth’s surface is dynamic, with continents, oceans, mountains, and valleys continuously reshaped by the forces of plate tectonics. Earth’s magnetic field, generated by its liquid iron core, also plays a vital role in protecting the planet from solar winds and cosmic radiation.
+    </p>
 
-Join us as we journey through the wonders of planets and their role in the vast cosmos.
-           
-           </p></strong>
-           
-        <br><br>
-        
-    </div>
-    
-    
-    <div class="content"
-    	 style = "background-color: black;">
-         
-        <h2 style="font-family: 'Space Grotesk', sans-serif;
-        color: white;
-        text-align: left;">
-        
-        Their Properties
-        
-        </h2>
-        
-        <p style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 17px;
-        color: white;
-        text-align: left;">
-        
-        Planets come in a diverse range of sizes, compositions, and atmospheres, each with distinct properties that define their nature. Some, like Earth and Mars, are rocky terrestrial planets with solid surfaces, while others, like Jupiter and Saturn, are massive gas giants with turbulent atmospheres and powerful storms.
+    <h2>Conclusion</h2>
+    <p>
+      Planets are more than just distant, glowing spheres in the sky; they are dynamic worlds filled with complexity and wonder. Each planet, from the smallest rocky world to the massive gas giants, offers unique insights into the forces that shape our universe. As we continue to study their properties, atmospheres, and chemical compositions, we deepen our understanding of the cosmos and the processes that govern planetary formation and evolution.
+      <br><br>
+      Planet Earth remains a testament to the delicate balance of natural systems that make life possible, serving as both a beacon of hope and a model for exploring the potential for life beyond our solar system.
+    </p>
+  </div>
 
-Key planetary characteristics include mass, gravity, temperature, and atmospheric composition, all of which influence a planet’s ability to support life. Some planets have magnetic fields that shield them from cosmic radiation, while others have extreme environments with scorching heat or freezing temperatures. The presence of moons, rings, and geological activity further adds to the complexity of these celestial bodies.
-
-By studying planetary properties, scientists gain valuable insights into how planets form, evolve, and interact with their surroundings. Explore the fascinating traits that make each planet unique and uncover the science behind their existence.
-
-        </p>
-        
-        <br><br>
-        
-        <h2 style="font-family: 'Space Grotesk', sans-serif;
-        color: white;
-        text-align: left;">
-        
-        Physical Properties
-        
-        </h2>
-        
-        <p style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 17px;
-        color: white;
-        text-align: left;">
-        
-        The physical properties of planets, such as their mass, gravity, and the number of moons, are key to understanding their behavior and role within their star systems. Planets vary significantly in size and weight, with gas giants like Jupiter being the largest, weighing over 300 times as much as Earth, and terrestrial planets like Mercury being much smaller in mass and volume.
-
-The gravitational pull of a planet is directly related to its mass and size. Larger planets, such as Jupiter and Saturn, have much stronger gravity compared to Earth, which influences everything from their atmospheric conditions to the orbits of their moons. In contrast, smaller planets like Mars and Mercury exert weaker gravity, affecting their ability to retain atmospheres and support potential life.
-
-In our solar system, planets are accompanied by numerous moons. Jupiter and Saturn are the leaders, each with over 70 moons orbiting them, while Earth has just one, and Mercury and Venus have none. These moons can range from small, irregularly shaped bodies to large, spherical moons like Ganymede, the largest moon in the solar system.
-
-By studying the masses, gravity, and moons of planets, we can unlock a deeper understanding of their formation, behavior, and the dynamic interactions within our solar system and beyond.
-		</p>
-        
-        <br><br>
-        
-        <h2 style="font-family: 'Space Grotesk', sans-serif;
-        color: white;
-        text-align: left;">
-        
-        Chemical Properties
-        
-        </h2>
-        
-        <p style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 17px;
-        color: white;
-        text-align: left;">
-        
-        The chemical makeup of planets plays a crucial role in shaping their environments, surfaces, and atmospheres. Planets are primarily composed of a variety of elements and compounds that determine their structure, appearance, and even potential for supporting life.
-
-Terrestrial planets like Earth, Mars, Venus, and Mercury are made up mostly of silicate rock and metals, with Earth having a rich diversity of chemical elements that support life. These planets have solid surfaces and metallic cores, which contribute to their magnetic fields and internal heat. The chemical composition of their atmospheres also varies, with Earth’s being primarily nitrogen and oxygen, while Venus and Mars have atmospheres dominated by carbon dioxide, creating vastly different climates.
-
-Gas giants like Jupiter and Saturn are predominantly composed of hydrogen and helium, with trace amounts of methane, ammonia, and other compounds. These gases form dense atmospheres and contribute to their signature cloud patterns and extreme weather systems.
-
-The outermost planets, Uranus and Neptune, are often called ice giants due to their higher concentrations of water, ammonia, and methane ice. These compounds influence their pale blue appearance and extreme cold environments.
-
-By analyzing the chemical properties of planets, scientists gain valuable insights into their formation, evolution, and potential for sustaining life. Understanding these elements helps us better comprehend the processes that shape not only our own planet but also the countless worlds scattered throughout the universe.
-		</p>
-        
-        <br><br>
-        
-        <h2 style="font-family: 'Space Grotesk', sans-serif;
-        color: white;
-        text-align: left;">
-        
-        Planet Earth
-        
-        </h2>
-        
-        <p style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 17px;
-        color: white;
-        text-align: left;">
-        
-        Earth is a remarkable planet, unique in our solar system for its ability to support a rich diversity of life. As the third planet from the Sun, Earth’s position in the habitable zone allows it to maintain the conditions necessary for liquid water, a critical ingredient for life.
-
-One of the most distinctive features of Earth is its atmosphere, composed mainly of nitrogen (78%) and oxygen (21%), with trace amounts of argon, carbon dioxide, and other gases. This composition not only sustains life but also creates a protective shield that filters harmful radiation from the Sun and helps regulate the planet's temperature. The presence of water—covering approximately 71% of Earth's surface—further contributes to the planet’s life-supporting conditions, fostering a wide variety of ecosystems and climates.
-
-Earth’s surface is dynamic, with continents, oceans, mountains, and valleys continuously reshaped by the forces of plate tectonics. This geological activity is responsible for creating Earth’s diverse landforms, such as the towering Himalayas and the deep ocean trenches. Earth’s magnetic field, generated by its liquid iron core, also plays a vital role in protecting the planet from solar winds and cosmic radiation, further contributing to the stability of its environment.
-
-The planet’s gravity, with a surface value of 9.8 m/s², is strong enough to retain an atmosphere and prevent water from evaporating into space, yet balanced to allow for the movement of oceans and weather systems. Earth is home to a rich variety of elements, minerals, and compounds, which not only sustain life but also contribute to the planet’s unique geological and atmospheric conditions.
-
-Unlike other planets in our solar system, Earth has a singular biosphere that supports millions of species, from microscopic organisms to large mammals. This diversity of life is intricately linked to Earth’s complex systems, including the carbon cycle, water cycle, and the balance of gases in the atmosphere.
-
-Earth's unique combination of favorable conditions—water, a stable atmosphere, magnetic protection, and active geology—makes it a truly one-of-a-kind planet in the vast universe, offering a glimpse into the potential for life on other worlds.
-		</p>
-        
-        <br><br>
-        
-        
-        <h2 style="font-family: 'Space Grotesk', sans-serif;
-        color: white;
-        text-align: left;">
-        
-        Conclusion
-        
-        </h2>
-        
-        <p style="font-family: 'Space Grotesk', sans-serif;
-        font-size: 17px;
-        color: white;
-        text-align: left;">
-        
-        Planets are more than just distant, glowing spheres in the sky; they are dynamic worlds filled with complexity and wonder. Each planet, from the smallest rocky world to the massive gas giants, offers unique insights into the forces that shape our universe. As we continue to study their properties, atmospheres, and chemical compositions, we deepen our understanding of the cosmos and the processes that govern planetary formation and evolution.
-
-Planet Earth remains a testament to the delicate balance of natural systems that make life possible, serving as both a beacon of hope and a model for exploring the potential for life beyond our solar system. The study of planets not only enriches our knowledge of space but also reminds us of the extraordinary conditions that have allowed life to thrive on our home planet.
-
-As we look to the future, the exploration of planets—both within our solar system and beyond—continues to inspire humanity’s quest for knowledge and d
-
-		</p>
-        
-    	 </div>
-          
-          
-    </div>
-    
-    
-    <div class="footer"
-      style="background-image: url('https://i.pinimg.com/736x/32/16/17/321617eac8c1109b68c22bfbe022f36c.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;">
-<br><br><br><br>
-
-	</div>
-
+  <div class="footer"></div>
 </body>
 </html>
