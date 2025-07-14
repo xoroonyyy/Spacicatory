@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +11,9 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+  
+  <a href="#top" class="back-to-top">↑ Top</a>
+
 
   <style>
     body {
@@ -23,23 +27,28 @@
     }
 
     .top h1 a {
-      font-size: 18px;
+      font-size: 20px;
       color: white;
       text-decoration: none;
     }
 
     .header {
+      position: relative;
       padding: 120px 30px;
-      background-image: url('https://i.pinimg.com/736x/1d/2e/7e/1d2e7e7fe3c42b5b2c04290ec6c9f14e.jpg');
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+        url('https://i.pinimg.com/736x/1d/2e/7e/1d2e7e7fe3c42b5b2c04290ec6c9f14e.jpg');
       background-size: cover;
       background-repeat: no-repeat;
+      background-position: center;
       color: white;
     }
+
 
     .header h1 {
       font-size: 45px;
       margin: 0 0 20px 0;
     }
+    
 
     .content {
       padding: 60px 30px;
@@ -88,12 +97,40 @@
     }
 
     .footer {
-      padding: 60px 30px;
+      padding: 30px 15px;
       background-image: url('https://i.pinimg.com/736x/32/16/17/321617eac8c1109b68c22bfbe022f36c.jpg');
       background-size: cover;
       background-repeat: no-repeat;
     }
+    
+    .back-to-top {
+      position: fixed;
+      bottom: 25px;
+      right: 30px;
+      background: #101820;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 25%;
+      font-size: 15px;
+      text-decoration: none;
+      display: none;
+      transition: background 0.3s ease;
+    }
+	.back-to-top:hover {
+      background: white;
+      color: black;
+    }
+
   </style>
+  
+  <script>
+    window.onscroll = function() {
+      document.querySelector('.back-to-top').style.display =
+        window.scrollY > 200 ? 'block' : 'none';
+    };
+  </script>
+
+  
 </head>
 
 <body>
@@ -141,6 +178,18 @@
     </div>
   </div>
 
-  <div class="footer"></div>
+  <div class="footer"
+       style="background-image: url('https://i.pinimg.com/736x/32/16/17/321617eac8c1109b68c22bfbe022f36c.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 40px 30px;
+        color: white;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 12px;">
+
+        <p>© 2025 Spacicatory. Crafted with curiosity among the stars.</p>
+  </div>
+  
 </body>
 </html>
